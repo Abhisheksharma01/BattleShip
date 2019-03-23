@@ -1,0 +1,25 @@
+{
+  "name": "battleship",
+  "version": "1.0.0",
+  "description": "A battleship program",
+  "main": "src/main.js",
+  "files": [
+    "src",
+    "out"
+  ],
+  "engines": {"node" : ">=8.12.0"},
+  "author": "Abhishek Sharma",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "node ./node_modules/mocha/bin/mocha",
+    "build": "node ./node_modules/eslint/bin/eslint src/*.js src/utilities/*.js",
+    "build-fix": "node ./node_modules/eslint/bin/eslint src/*.js src/utilities/*.js --fix"
+  },
+  "devDependencies": {
+    "chai": "^4.0.0",
+    "eslint": "^5.14.0",
+    "mocha": "^5.2.0",
+    "sinon": "^7.0.1"
+  },
+  "dependencies": {}
+}
