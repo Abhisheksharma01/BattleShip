@@ -1,11 +1,14 @@
 {
-  "name": "battleship",
+  "name": "game-battleship",
   "version": "1.0.0",
   "description": "A battleship program",
   "main": "src/main.js",
   "files": [
     "src",
     "out"
+  ],
+  "keywords": [
+   "battleship"
   ],
   "engines": {"node" : ">=8.12.0"},
   "author": "Abhishek Sharma",
